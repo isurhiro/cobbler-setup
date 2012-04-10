@@ -1,0 +1,11 @@
+--- /etc/cobbler/modules.conf   2012-04-11 03:10:06.000000000 +0900
++++ /etc/cobbler/modules.conf.bk        2012-04-11 03:09:54.000000000 +0900
+@@ -19,7 +19,7 @@
+ # https://fedorahosted.org/cobbler/wiki/CobblerWithLdap
+
+ [authentication]
+-module = authn_denyall
++module = authn_configfile
+
+ # authorization:
+ # once a user has been cleared by the WebUI/XMLRPC, what can they do?
